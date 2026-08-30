@@ -1,0 +1,1668 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Advanced responsive personal portfolio website of a Web Developer and Data Analyst">
+
+    <meta name="keywords"
+        content="Web Developer, Data Analyst, Portfolio, HTML, CSS, JavaScript, React, Python">
+
+    <meta name="author" content="Your Name">
+
+    <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+
+    <title>Your Name — Personal Portfolio</title>
+
+
+    <!-- ================================
+         GOOGLE FONTS
+    ================================= -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+         <!-- Font Awesome Icons -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+
+    <!-- ================================
+         CSS
+    ================================= -->
+
+    <link rel="stylesheet"
+        href="style.css">
+</head>
+
+
+<body>
+
+<!-- WhatsApp Floating Button -->
+<a href="https://wa.me/9917525968"
+   class="whatsapp-float"
+   target="_blank"
+   rel="noopener noreferrer"
+   aria-label="Chat on WhatsApp">
+
+    <i class="fa-brands fa-whatsapp"></i>
+
+</a>
+    <!-- ==================================================
+         PAGE LOADER
+    =================================================== -->
+
+    <div class="loader" id="loader">
+
+        <div class="loader-logo">
+            MOHD SAIF<span>.</span>
+        </div>
+
+        <div class="loader-line">
+            <i></i>
+        </div>
+
+    </div>
+
+
+
+    <!-- ==================================================
+         CUSTOM CURSOR
+    =================================================== -->
+
+    <div class="cursor-dot"></div>
+
+    <div class="cursor-ring"></div>
+
+
+
+    <!-- ==================================================
+         HEADER / NAVBAR
+    =================================================== -->
+
+    <header class="site-header" id="header">
+
+        <div class="header-inner">
+
+
+            <!-- LOGO -->
+
+            <a href="#home" class="logo">
+                <img
+                src="logo.png"
+                alt="Mohd Saif Logo"
+            >
+            </a>
+
+
+
+            <!-- DESKTOP NAVIGATION -->
+
+            <nav class="nav" id="nav">
+
+                <a href="#home" class="active">
+                    Home
+                </a>
+
+                <a href="#about">
+                    About
+                </a>
+
+                <a href="#skills">
+                    Skills
+                </a>
+
+                <a href="#projects">
+                    Projects
+                </a>
+
+                <a href="#experience">
+                    Experience
+                </a>
+
+                <a href="#education">
+                    Education
+                </a>
+
+                <a href="#contact">
+                    Contact
+                </a>
+
+            </nav>
+
+
+
+            <!-- HEADER BUTTON -->
+
+            <a href="#contact" class="header-btn">
+
+                Let's Talk
+
+                <i data-lucide="arrow-up-right" aria-hidden="true"></i>
+
+            </a>
+
+
+
+            <!-- MOBILE HAMBURGER -->
+
+            <button
+                class="hamburger"
+                id="hamburger"
+                aria-label="Open menu"
+                aria-expanded="false">
+
+                <span></span>
+
+                <span></span>
+
+                <span></span>
+
+            </button>
+
+
+        </div>
+
+    </header>
+
+
+
+    <!-- ==================================================
+         MAIN CONTENT
+    =================================================== -->
+
+    <main>
+
+
+
+        <!-- ==================================================
+             HERO SECTION
+        =================================================== -->
+
+        <section
+            class="hero section-pad"
+            id="home">
+
+
+            <div class="hero-grid">
+
+
+                <!-- HERO CONTENT -->
+
+                <div class="hero-content reveal">
+
+
+                    <!-- AVAILABLE STATUS -->
+
+                    <div class="availability">
+
+                        <i></i>
+
+                        AVAILABLE FOR NEW PROJECTS
+
+                    </div>
+
+
+
+                    <!-- SMALL TITLE -->
+
+                    <p class="eyebrow">
+
+                                WEB DEVELOPER
+                           <b>•</b>
+                                 FULL STACK DEVELOPER
+
+                    </p>
+
+
+
+                    <!-- MAIN HEADING -->
+
+                    <h1>
+                        Building
+                        <span>full stack</span>
+                        development.
+                    </h1>
+
+
+
+                    <!-- DESCRIPTION -->
+
+                    <p class="hero-text">
+
+                        I build modern, scalable, and high-performance
+                        full stack web applications that are fast,
+                        secure, and built to grow.
+
+                    </p>
+
+
+
+                    <!-- HERO BUTTONS -->
+
+                    <div class="hero-actions">
+
+                        <a
+                            href="#projects"
+                            class="btn primary">
+
+                            View My Work
+
+                            <span>↗</span>
+
+                        </a>
+
+
+                        <a
+                            href="#contact"
+                            class="btn ghost">
+
+                            Contact Me
+
+                        </a>
+ 
+                        <a href="saif_resume (1).pdf"
+                           class="btn btn-resume"
+                           download>
+                            DOWNLOAD RESUME
+                            <span>↓</span>
+                        </a>
+
+                    </div>
+
+
+
+                    <!-- HERO META -->
+
+                    <div class="hero-meta">
+
+                        <span>
+                            Based in India
+                        </span>
+
+                        <b></b>
+
+                        <span>
+                            Open to Remote
+                        </span>
+
+                        <b></b>
+
+                        <span>
+                            2026
+                        </span>
+
+                    </div>
+
+
+                </div>
+
+
+
+                <!-- HERO IMAGE / GRAPHIC -->
+
+                <div class="hero-art reveal">
+
+
+                    <div class="orbit orbit-one"></div>
+
+                    <div class="orbit orbit-two"></div>
+
+                    <div class="glow"></div>
+
+
+
+                    <!-- PROFILE CARD -->
+
+                    <div class="profile-card">
+
+                        <div class="profile-image">
+
+                            <img
+                                src="my image.jpeg"
+                                alt="Profile">
+
+                        </div>
+
+
+                        <div class="profile-caption">
+
+                            <span>
+                                FULL STACK DEVELOPER
+                            </span>
+
+                            <strong>
+                                MOHD SAIF
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- FLOATING EXPERIENCE CARD -->
+
+                    <div class="floating-card card-a">
+
+                        
+
+                        <strong>
+                          Fresher
+                        </strong>
+
+                    </div>
+
+
+
+                    <!-- FLOATING PROJECT CARD -->
+
+                    <div class="floating-card card-b">
+
+                        <small>
+                            PROJECTS
+                        </small>
+
+                        <strong>
+                            5+
+                        </strong>
+
+                    </div>
+
+
+
+
+                    <!-- CODE CARD -->
+
+                    <div class="code-card">
+
+                        <span>&lt;</span>
+
+                        design
+
+                        <b>/</b>
+
+                        build
+
+                        <b>/</b>
+
+                        scale
+
+                        <span>/&gt;</span>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ==================================================
+             ABOUT SECTION
+        =================================================== -->
+
+        <section 
+    class="section section-dark" 
+    id="about">
+
+    <!-- SECTION TITLE -->
+
+    <div class="section-head reveal">
+
+        <p class="section-number">
+            01 / ABOUT ME
+        </p>
+
+        <h2>
+            Building ideas into
+            <br>
+            <span>
+                digital experiences.
+            </span>
+        </h2>
+
+    </div>
+
+
+    <div class="about-grid">
+
+        <!-- ABOUT CONTENT -->
+
+        <div class="about-copy reveal">
+
+            <p class="lead">
+
+                I'm a Fresher Full Stack Developer passionate
+                about building modern, responsive, and
+                user-friendly web applications.
+
+            </p>
+
+
+            <p><b>
+
+                Motivated and detail-oriented B.Tech Computer science and Engineering graduate aiming to launch a career
+                as a Full Stack Developer.Skilled in responsive front-end development (HTML, CSS, JavaScript, Bootstrap), 
+                server-side programming (Node.js/Express, Python), and database architecture (SQL & NoSQL). Demonstrated 
+                ability to translate complex business requirements into robust,end-to-end web solutions through hands-on 
+                full-stack projects and agile development practices.
+
+          </b>  </p>
+
+
+            <a 
+                href="#contact" 
+                class="text-link">
+
+                Let's connect
+
+                <span>
+                    ↗
+                </span>
+
+            </a>
+
+        </div>
+
+
+        <!-- STATISTICS -->
+
+        <div class="stats reveal">
+
+
+            <div>
+
+                <strong data-count="5">
+                    02+
+                </strong>
+
+                <span>
+                    PROJECTS
+                </span>
+
+            </div>
+
+
+            <div>
+
+                <strong data-count="8">
+                    4
+                </strong>
+
+                <span>
+                   Achievements
+                </span>
+
+            </div>
+
+
+            <div>
+
+                <strong data-count="1">
+                    3
+                </strong>
+
+                <span>
+                    INTERNSHIP
+                </span>
+
+            </div>
+
+
+            <div>
+
+                <strong data-count="100">
+                    100%
+                </strong>
+
+                <span>
+                    LEARNING %
+                </span>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+        <!-- ==================================================
+             SKILLS SECTION
+        =================================================== -->
+
+        <section
+            class="section"
+            id="skills">
+
+
+            <div class="section-head reveal">
+
+                <p class="section-number">
+
+                    02 / SKILLS
+
+                </p>
+
+                <h2>
+
+                    My technical
+
+                    <br>
+
+                    <span>
+                        toolkit.
+                    </span>
+
+                </h2>
+
+            </div>
+
+
+
+            <div class="skills-grid">
+
+
+                <!-- SKILL BARS -->
+
+                <div class="skills-list reveal">
+
+
+                    <!-- HTML CSS -->
+
+                    <div class="skill">
+
+                        <div>
+
+                            <span>
+                                HTML 
+                            </span>
+
+                            <b>
+                                90%
+                            </b>
+
+                        </div>
+
+                        <i>
+
+                            <em style="--w:90%"></em>
+
+                        </i>
+
+                    </div>
+
+
+
+                    <!-- JAVASCRIPT -->
+
+                    <div class="skill">
+
+                        <div>
+
+                            <span>
+                                JavaScript
+                            </span>
+
+                            <b>
+                                80%
+                            </b>
+
+                        </div>
+
+                        <i>
+
+                            <em style="--w:88%"></em>
+
+                        </i>
+
+                    </div>
+
+
+
+                    <!-- REACT -->
+
+                    <div class="skill">
+
+                        <div>
+
+                            <span>
+                                CSS
+                            </span>
+
+                            <b>
+                                88%
+                            </b>
+
+                        </div>
+
+                        <i>
+
+                            <em style="--w:88%"></em>
+
+                        </i>
+
+                    </div>
+
+
+
+                    <!-- BOOTSTRAP -->
+
+                    <div class="skill">
+
+                        <div>
+
+                            <span>
+                                Bootstrap
+                            </span>
+
+                            <b>
+                                70%
+                            </b>
+
+                        </div>
+
+                        <i>
+
+                            <em style="--w:70%"></em>
+
+                        </i>
+
+                    </div>
+
+
+                    <div class="skill">
+
+                        <div>
+
+                            <span>
+                                Python
+                            </span>
+
+                            <b>
+                                50%
+                            </b>
+
+                        </div>
+
+                        <i>
+
+                            <em style="--w:50%"></em>
+
+                        </i>
+
+                    </div>
+
+
+
+                <!-- TECHNOLOGY PANEL -->
+
+                <div class="tech-panel reveal">
+
+                    <p>
+                        TECH STACK
+                    </p>
+
+
+                    <div class="tech-cloud">
+
+                        <span>
+                            HTML5
+                        </span>
+
+                        <span>
+                            CSS3
+                        </span>
+
+                        <span>
+                            JavaScript
+                        </span>
+
+                        <span>
+                            React
+                        </span>
+
+                        <span>
+                            Node.js
+                        </span>
+
+                        <span>
+                            Python
+                        </span>
+
+                        <span>
+                            SQL
+                        </span>
+
+                        <span>
+                            Git
+                        </span>
+
+                        <span>
+                            GitHub
+                        </span>
+
+                        <span>
+                            Power BI
+                        </span>
+
+                        <span>
+                            Excel
+                        </span>
+
+                        <span>
+                            Figma
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ==================================================
+             PROJECTS SECTION
+        =================================================== -->
+
+        <section
+            class="section section-dark"
+            id="projects">
+
+
+            <div class="section-head split reveal">
+
+
+                <div>
+
+                    <p class="section-number">
+
+                        03 / SELECTED PROJECTS
+
+                    </p>
+
+                    <h2>
+
+                        Work that
+
+                        <br>
+
+                        <span>
+                            speaks.
+                        </span>
+
+                    </h2>
+
+                </div>
+
+
+                <a
+                    href="#contact"
+                    class="text-link">
+
+                    Start a project
+
+                    <span>
+                        ↗
+                    </span>
+
+                </a>
+
+
+            </div>
+
+
+            <!-- PROJECT CARDS -->
+
+            <div class="project-grid">
+
+
+                <!-- PROJECT 1 -->
+
+                <article class="project-card reveal">
+
+                    <div class="project-thumb ecommerce">
+
+                        <span>
+                            CAFE
+                        </span>
+
+                    </div>
+
+
+                    <div>
+
+                        <p>
+                            02 — Food Cafe
+                        </p>
+
+                        <h3>
+                           Foodn Cafe
+                        </h3>
+
+                        <a href="https://saifbaris12.github.io/food-cafe/">
+                            Explore ↗
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- PROJECT 2 -->
+
+                <article class="project-card reveal">
+
+                    <div class="project-thumb portfolio">
+
+                        <span>
+                            PROFILE
+                        </span>
+
+                    </div>
+
+
+                    <div>
+
+                        <p>
+                            03 — My Porfile
+                        </p>
+
+                        <h3>
+                            PERSONAL DETAILS
+                        </h3>
+
+                        <a href="#contact">
+                            Explore ↗
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ==================================================
+             EXPERIENCE SECTION
+        =================================================== -->
+
+        <section
+            class="section"
+            id="experience">
+
+
+            <div class="section-head reveal">
+
+                <p class="section-number">
+
+                    04 / EXPERIENCE
+
+                </p>
+
+                <h2>
+
+                    Where I've
+
+                    <br>
+
+                    <span>
+                        learned.
+                    </span>
+
+                </h2>
+
+            </div>
+
+
+
+            <div class="timeline reveal">
+
+
+                <!-- EXPERIENCE 1 -->
+
+                <article>
+
+                    <span>
+                        25 July 2025 to 25 August 2025
+                    </span>
+
+
+                    <div>
+
+                        <h3>
+                             Data Analytics
+
+                            <b>
+                                CODTECH IT SOLUTIONS PRIVATE LIMITED , Hyderabad,India
+                            </b>
+
+                        </h3>
+
+
+                        <p>
+
+                            • Performed data cleaning, preprocessing, and transformation to improve data quality and accuracy.<br>
+                            • Created data visualizations and analytical reports using tools such as Matplotlib and Seaborn.<br>
+                            • Applied SQL to retrieve, filter, and analyze data from databases.<br>
+                            • Worked on practical data analytics projects and developed solutions for data-driven decision-making.
+
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- EXPERIENCE 2 -->
+
+                <article>
+
+                    <span>
+                        24 April 2026 to 25 may 2026
+                    </span>
+
+
+                    <div>
+
+                        <h3>
+
+                            Al & Data Analyst
+
+                            <b>
+                               xylofy AI , Bangalore,India
+                            </b>
+
+                        </h3>
+
+
+                        <p>
+                           • Analyzed datasets to identify trends, patterns, and actionable insights.<br>
+                           • Performed data cleaning, preprocessing, and exploratory data analysis using Python.<br>
+                           • Used Pandas, NumPy, and SQL for data manipulation, extraction, and analysis.<br>
+                           • Created data visualizations and analytical reports to communicate key findings effectively.
+
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- EXPERIENCE 3 -->
+
+                <article>
+
+                    <span>
+                       25 April 2026- present
+                    </span>
+
+
+                    <div>
+
+                        <h3>
+
+                           Data Analytics
+
+                            <b>
+                               UNIFIED MENTOR , Gurugram,Haryana,India
+                            </b>
+
+                        </h3>
+
+
+                        <p>
+
+                           • Working on real-world datasets to identify trends, patterns, and actionable insights.<br>
+                           • Performing data cleaning, preprocessing, and exploratory data analysis (EDA).<br>
+                           • Using Python, Pandas, NumPy, and SQL for data manipulation and analysis.
+
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ==================================================
+             EDUCATION SECTION
+        =================================================== -->
+
+        <section
+            class="section section-dark"
+            id="education">
+
+
+            <div class="section-head reveal">
+
+                <p class="section-number">
+
+                    05 / EDUCATION
+
+                </p>
+
+                <h2>
+
+                    Learning with
+
+                    <br>
+
+                    <span>
+                        purpose.
+                    </span>
+
+                </h2>
+
+            </div>
+
+
+
+            <div class="education-grid">
+
+
+                <!-- EDUCATION 1 -->
+
+                <article class="edu-card reveal">
+
+                    <span>
+                        2020 — 2023
+                    </span>
+
+                    <h3>
+                      POLYTECHIC
+                    </h3>
+
+                    <p>
+                        DIPLOMA IN INFORMATION TECHNOLOGY
+                    </p>
+
+                    <b>
+                        Percentage 75.3%
+                    </b>
+
+                </article>
+
+
+
+                <!-- EDUCATION 2 -->
+
+                <article class="edu-card reveal">
+
+                    <span>
+                        2023 — 2026
+                    </span>
+
+                    <h3>
+                       B.TECH
+                    </h3>
+
+                    <p>
+                       COMPUTER SCIENCE AND ENGINEERING
+                    </p>
+
+                    <b>
+                        CGPA 7.90
+                    </b>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ==================================================
+             SERVICES SECTION
+        =================================================== -->
+
+        <section
+            class="section services"
+            id="services">
+
+
+            <div class="section-head reveal">
+
+                <p class="section-number">
+
+                    06 / WHAT I DO
+
+                </p>
+
+                <h2>
+
+                    Services built
+
+                    <br>
+
+                    <span>
+                        for impact.
+                    </span>
+
+                </h2>
+
+            </div>
+
+
+
+            <div class="service-grid">
+
+
+                <!-- SERVICE 1 -->
+
+                <article class="service reveal">
+
+                    <strong>
+                        01
+                    </strong>
+
+                    <h3>
+                        Web Development
+                    </h3>
+
+                    <p>
+
+                        Fast, responsive, accessible
+                        websites with modern UI and
+                        clean code.
+
+                    </p>
+
+                </article>
+
+
+
+                <!-- SERVICE 2 -->
+
+                <article class="service reveal">
+
+                    <strong>
+                        02
+                    </strong>
+
+                    <h3>
+                        Database Management
+                    </h3>
+
+                    <p>
+
+                        Structured and efficient data management using SQL and Excel.
+
+                    </p>
+
+                </article>
+
+
+
+                <!-- SERVICE 3 -->
+
+                <article class="service reveal">
+
+                    <strong>
+                        03
+                    </strong>
+
+                    <h3>
+                        Frontend Development
+                    </h3>
+
+                    <p>
+
+                        Responsive and modern interfaces using HTML, CSS, JavaScript and Bootstrap.
+
+                    </p>
+
+                </article>
+
+
+
+                <!-- SERVICE 4 -->
+
+                <article class="service reveal">
+
+                    <strong>
+                        04
+                    </strong>
+
+                    <h3>
+                        UI / UX Design
+                    </h3>
+
+                    <p>
+
+                        Converting designs into clean, responsive and user-friendly interfaces.
+                    </p>
+
+                </article>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+              CONTACT SECTION
+        ===================================================== -->
+<section class="contact-section" id="contact">
+<div class="contact-wrapper">
+    
+    <!-- Left Column: Details -->
+    <div class="left-col">
+      <div class="title-box">
+        <span class="tag">07 / Contact</span>
+        <h1 class="main-title">
+          Have an idea?<br>
+          <span class="glow-cyan">Let's build it.</span>
+        </h1>
+        <p class="subtitle">
+          Have a project, website idea, or opportunity? I'd love to hear about it. Let's create something useful and impactful together.
+        </p>
+      </div>
+
+      <!-- Glass Cards Stack -->
+      <div class="cards-stack">
+        <a href="mailto:yourname@email.com" class="glass-card">
+          <div class="icon-badge">
+            <i data-lucide="at-sign"></i>
+          </div>
+          <div>
+            <div class="card-label">Email</div>
+            <div class="card-value">Mohdsaif17525@gmail.com</div>
+          </div>
+        </a>
+
+        <a href="tel:+919917525968" class="glass-card">
+          <div class="icon-badge">
+            <i data-lucide="phone"></i>
+          </div>
+          <div>
+            <div class="card-label">Phone</div>
+            <div class="card-value">+91 9917525968</div>
+          </div>
+        </a>
+
+        <div class="glass-card">
+          <div class="icon-badge">
+            <i data-lucide="globe"></i>
+          </div>
+          <div>
+            <div class="card-label">Location</div>
+            <div class="card-value">Bareilly,Uttar Pradesh, India</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Social Links -->
+      <div class="social-bar">
+        <span class="tag">Follow Me</span>
+        <a href="https://www.linkedin.com/in/mohd-saif-348898282/" class="social-btn" title="LinkedIn">
+                    <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+        </a>
+        <a href="https://github.com/SAIFBARIS12" class="social-btn" title="GitHub">
+                    <i class="fa-brands fa-github" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.instagram.com/er.saif_baris/" class="social-btn" title="Instagram">
+                    <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Right Column: Form Frame -->
+    <div class="cyber-frame">
+      <div class="form-header">
+        <span class="form-header-title">Contact</span>
+        <div class="form-header-line"></div>
+      </div>
+
+      <form action="#" method="POST" onsubmit="event.preventDefault();">
+        <div class="form-grid">
+          <div class="form-group mb-0">
+            <label>Your Name</label>
+            <input type="text" class="cyber-input" placeholder="John Doe" required />
+          </div>
+          <div class="form-group mb-0">
+            <label>Email Address</label>
+            <input type="email" class="cyber-input" placeholder="john@example.com" required />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>Subject</label>
+          <input type="text" class="cyber-input" placeholder="Tell me about your project" />
+        </div>
+
+        <div class="form-group">
+          <label>Your Message</label>
+          <textarea class="cyber-input" placeholder="Tell me about your project, idea or opportunity..." required></textarea>
+        </div>
+
+        <button type="submit" class="submit-btn">
+          <span>Send Message</span>
+          <i data-lucide="arrow-up-right"></i>
+        </button>
+      </form>
+    </div>
+
+  </div>
+</section>
+
+    </main>
+
+
+
+    <!-- ==================================================
+         FOOTER
+    =================================================== -->
+
+    
+<footer class="site-footer">
+
+    <div class="footer-container">
+
+
+        <!-- ================= BRAND ================= -->
+
+        <div class="footer-brand">
+
+            <a href="#" class="footer-logo">
+                <img
+                src="logo.png"
+                alt="Mohd Saif Logo"
+            >
+            </a>
+
+            <p class="footer-role">
+                FULL STACK DEVELOPER
+            </p>
+
+            <p class="footer-description">
+                I build fast, responsive and user-focused
+                web applications with clean code and
+                modern technologies.
+            </p>
+
+
+            <!-- SOCIAL ICONS -->
+
+            <div class="contact-social footer-social">
+
+                
+            
+                <div class="social-links">
+            
+                    <a href="https://www.linkedin.com/in/mohd-saif-348898282/"
+                       target="_blank"
+                       aria-label="LinkedIn">
+            
+                        <i class="fa-brands fa-linkedin-in"></i>
+            
+                    </a>
+            
+            
+                    <a href="https://github.com/SAIFBARIS12"
+                       target="_blank"
+                       aria-label="GitHub">
+            
+                        <i class="fa-brands fa-github"></i>
+            
+                    </a>
+            
+            
+                    <a href="https://www.instagram.com/er.saif_baris/"
+                       target="_blank"
+                       aria-label="Instagram">
+            
+                        <i class="fa-brands fa-instagram"></i>
+            
+                    </a>
+            
+                </div>
+            
+            </div>
+        </div>
+
+
+
+        <!-- ================= NAVIGATION ================= -->
+
+        <div class="footer-column col-xl-3 col-md-5 mb-2">
+         
+            <h3>NAVIGATION</h3>
+
+            <ul>
+
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+
+                <li>
+                    <a href="#about">About Me</a>
+                </li>
+
+                <li>
+                    <a href="#services">Services</a>
+                </li>
+
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+
+            </ul>
+
+        </div>
+        
+
+
+        <!-- ================= SERVICES ================= -->
+
+        <div class="footer-column">
+
+            <h3>SERVICES</h3>
+
+            <ul>
+
+                <li>
+                    <a href="#services">
+                        Web Development
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#services">
+                        Frontend Development
+                    </a>
+                </li>
+
+
+                <li>
+                    <a href="#services">
+                        Database Management
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#services">
+                        UI / UX Design
+                    </a>
+                </li>
+
+            
+
+            </ul>
+
+        </div>
+
+
+
+        <!-- ================= CONTACT ================= -->
+
+        <div class="footer-column footer-contact">
+
+            <h3>GET IN TOUCH</h3>
+
+
+            <div class="contact-item">
+
+                <div class="contact-icon">
+                    @
+                </div>
+
+                <div>
+
+                    <span>EMAIL</span>
+
+                    <a href="mailto: mohdsaif17525@gmail.com">
+                        mohdsaif17525@gmail.com
+                    </a>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="contact-item">
+
+                <div class="contact-icon">
+                    ☎
+                </div>
+
+                <div>
+
+                    <span>PHONE</span>
+
+                    <a href="tel:+919917525968">
+                        +91 9917525968
+                    </a>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="contact-item">
+
+                <div class="contact-icon">
+                    ●
+                </div>
+
+                <div>
+
+                    <span>LOCATION</span>
+
+                    <p>
+                        Bareilly,Uttar Pradesh, India
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- ================= BOTTOM ================= -->
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 Mohd Saif. All rights reserved.
+        </p>
+
+
+        <p class="made-with">
+            ♡
+            Designed by MOHD SAIF
+        </p>
+
+
+        <a href="#home" class="back-top">
+
+            <span>
+                ↑
+            </span>
+
+            BACK TO TOP
+
+        </a>
+
+    </div>
+
+</footer>
+
+
+    <!-- ==================================================
+         JAVASCRIPT
+    =================================================== -->
+
+ <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script>
+    emailjs.init({
+        publicKey: "YOUR_PUBLIC_KEY"
+    });
+</script>
+
+<script src="script.js"></script>
+
+</html>
